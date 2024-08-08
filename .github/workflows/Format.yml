@@ -19,7 +19,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.ACTIONS_PAT }}
+          token: ${{ secrets.ACTIONS_PAT2 }}
           commit-message: Format .jl files
           title: 'Automatic JuliaFormatter.jl run'
           branch: auto-juliaformatter-pr
